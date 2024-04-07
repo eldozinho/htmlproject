@@ -1,0 +1,117 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('https://d3qvqlc701gzhm.cloudfront.net/full/33a3f4d4d8098da1c3daba0c3bbbb8d2f7ca982f40192450c671c76a415cded3.jpg'); /* Replace 'header-image.jpg' with your actual image */
+    background-size: cover;
+    color: red;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #991261;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+aside h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    color: #666;
+}
+
+section {
+    float: right;
+    width: 70%;
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
